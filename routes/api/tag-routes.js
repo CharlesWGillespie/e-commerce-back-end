@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { Tag, Product, ProductTag } = require("../../models");
+const { Tag, Product, ProductTag } = require("../models");
 
 // The `/api/tags` endpoint
 
@@ -23,7 +23,7 @@ router.get("/:id", async (req, res) => {
       include: [{ model: Product, through: ProductTag }],
     });
     if (!tag) {
-      res.status(404).json({ message: 'Tag not found' });
+      res.status(404).json({ message: "Tag not found" });
       return;
     }
     res.status(200).json(tag);
@@ -52,11 +52,11 @@ router.put("/:id", async (req, res) => {
     });
 
     if (updatedTag[0] === 0) {
-      res.status(404).json({ message: 'Tag not found' });
+      res.status(404).json({ message: "Tag not found" });
       return;
     }
 
-    res.status(200).json({ message: 'Tag updated successfully' });
+    res.status(200).json({ message: "Tag updated successfully" });
   } catch (err) {
     console.error(err);
     res.status(400).json(err);
@@ -71,11 +71,11 @@ router.delete("/:id", async (req, res) => {
     });
 
     if (deletedTag === 0) {
-      res.status(404).json({ message: 'Tag not found' });
+      res.status(404).json({ message: "Tag not found" });
       return;
     }
 
-    res.status(200).json({ message: 'Tag deleted successfully' });
+    res.status(200).json({ message: "Tag deleted successfully" });
   } catch (err) {
     console.error(err);
     res.status(500).json(err);

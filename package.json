@@ -2,29 +2,106 @@
   
   
   "name": "module-13-challenge-orm",
+  
+  
   "version": "1.0.0",
+  
+  
   "description": "",
+  
+  
   "main": "server.js",
+  
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+  
+  
+    
+  
+  "test": "echo \"Error: no test specified\" && exit 1",
+  
+  
+    
+  
+  "start": "node server.js",
+  
+  
+    
+  
+  "watch": "nodemon server.js",
+  
+  
+    
+  
+  "seed": "node seeds/index.js"
+  
+  
   },
+  
+  
   "repository": {
-    "type": "git",
-    "url": "https://github.com/charleswgillespie/e-commerce-Back-End"
+  
+  
+    
+  
+  "type": "git",
+  
+  
+    
+  
+  "url": "https://github.com/charleswgillespie/e-commerce-Back-End"
+  
+  
   },
+  
+  
   "keywords": [],
+  
+  
   "author": "Charles Gillespie",
+  
+  
   "license": "ISC",
+  
+  
   "devDependencies": {
-    "nodemon": "^2.0.3"
+  
+  
+    
+  
+  "nodemon": "^2.0.3"
+  
+  
   },
+  
+  
   "dependencies": {
-    "dotenv": "^16.3.1",
-    "mysql2": "^3.6.5",
-    "sequelize": "^6.35.2",
-    "sqlite3": "^5.1.6"
+  
+  
+    
+  
+  "dotenv": "^16.3.1",
+  
+  
+    
+  
+  "express": "^4.18.2",
+  
+  
+    
+  
+  "mysql2": "^3.6.5",
+  
+  
+    
+  
+  "sequelize": "^6.35.2",
+  
+  
+    
+  
+  "sqlite3": "^5.1.6"
+  
+  
   }
 }
