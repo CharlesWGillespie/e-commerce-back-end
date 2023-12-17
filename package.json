@@ -16,7 +16,7 @@
     "url": "https://github.com/charleswgillespie/e-commerce-Back-End"
   },
   "keywords": [],
-  "author": "",
+  "author": "Charles Gillespie",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.3"
