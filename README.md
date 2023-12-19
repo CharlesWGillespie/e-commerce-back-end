@@ -39,7 +39,7 @@ To aid developers in understanding the project and its functionality, a walkthro
 - **Database Configuration**: Demonstrates how to configure the MySQL database.
 - **Functionality Overview**: Provides a comprehensive overview of the e-commerce site's functionality.
 
-[Link to Walkthrough Video]()
+[Link to Walkthrough Video](https://watch.screencastify.com/v/vD6AB433f0yVdxXL1BIf)
 
 
 https://github.com/CharlesWGillespie/e-commerce-back-end/assets/143773137/13f1b6e8-20a3-43d1-bb26-a9cc380423fd
