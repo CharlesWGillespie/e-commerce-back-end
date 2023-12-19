@@ -41,6 +41,10 @@ To aid developers in understanding the project and its functionality, a walkthro
 
 [Link to Walkthrough Video]()
 
+
+https://github.com/CharlesWGillespie/e-commerce-back-end/assets/143773137/13f1b6e8-20a3-43d1-bb26-a9cc380423fd
+
+
 ## Contribution
 Contributions are welcome! If you encounter any issues or have suggestions for improvement, feel free to submit a pull request.
 
